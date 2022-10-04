@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Mid term project</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/showscroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -61,7 +62,7 @@
         <div class="recent-projects">
             <h2>Recent Projects</h2>
 
-            <div class="project-img">
+            <div class="project-img js-scroll slide-left">
                 <div class="parent">
                     <div class="child bg-one"></div>
                 </div>
@@ -70,7 +71,7 @@
                 <button id="learn-more"><a href="simplify.html" target="_blank">Learn More</a></button>
             </div>
 
-            <div class="project-img">
+            <div class="project-img js-scroll fade-in-bottom">
                 <div class="parent">
                     <div class="child bg-two"></div>
                 </div>
@@ -79,7 +80,7 @@
                 <button id="learn-more"><a href="simplify.html" target="_blank">Learn More</a></button>
             </div>
 
-            <div class="project-img">
+            <div class="project-img js-scroll slide-right">
                 <div class="parent">
                     <div class="child bg-three"></div>
                 </div>
@@ -93,7 +94,7 @@
             <img src="assets/testimonial-section/orbit.png" alt="" class="testimonial-bg">
             <div class="testimonials-text">
                 <h2>Hear What Our Clients Have to Say</h2>
-                <div class="test-text">"Circle helped us through every stage of our startup. We really enjoyed working
+                <div class="test-text">"Circle helped us through every stage of our startup.<br>We really enjoyed working
                     with you."</div>
                 <div class="client">
                     <div class="client-image"></div>
@@ -106,9 +107,9 @@
 
             <div class="testimonial-images">
                 <img src="assets/testimonial-section/memoji-1.png" alt="" class="top-left">
-                <img src="assets/testimonial-section/memoji-2.png" alt="" class="bottom-left">
-                <img src="assets/testimonial-section/memoji-3.png" alt="" class="top-right">
-                <img src="assets/testimonial-section/memoji-4.png" alt="" class="bottom-right">
+                <img src="assets/testimonial-section/memoji-3.png" alt="" class="bottom-left">
+                <img src="assets/testimonial-section/memoji-4.png" alt="" class="top-right">
+                <img src="assets/testimonial-section/memoji-2.png" alt="" class="bottom-right">
             </div>
         </div>
 
@@ -116,7 +117,7 @@
             <h2>Our Services</h2>
 
             <div class="row">
-                <figure>
+                <figure class="js-scroll slide-left">
                     <img class="icons-bg" src="assets/services-section/icons/1.svg">
                     <figcaption>
                         <h4>User Interface Design</h4>
@@ -124,7 +125,7 @@
                         <button id="learn-more-2"><a href="simplify.html" target="_blank">Learn More</a></button>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="js-scroll fade-in-bottom">
                     <img class="icons-bg" src="assets/services-section/icons/2.svg">
                     <figcaption>
                         <h4>User Experience Design</h4>
@@ -132,7 +133,7 @@
                         <button id="learn-more-2"><a href="simplify.html" target="_blank">Learn More</a></button>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="js-scroll slide-right">
                     <img class="icons-bg" src="assets/services-section/icons/3.svg">
                     <figcaption>
                         <h4>Application Development</h4>
@@ -173,6 +174,7 @@
     </main>
 
     <script src="./script.js"></script>
+    <script src="./show-on-scroll.js"></script>
 
 </body>
 

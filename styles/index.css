@@ -53,9 +53,9 @@ p {
 .top-nav .menu li a:focus,
 .top-nav .menu li a:hover,
 .top-nav .menu li a:active {
-  /* transform: scale(1.1) rotate(-2deg); */
-  transform: scale(1.2);
-  color: #20232d;
+  transform: scale(1.1);
+  opacity: 1;
+  color: #072ac8;
 }
 .top-nav .logo {
   display: inline-block;
@@ -120,10 +120,12 @@ p {
   color: white;
   font-size: 17px;
   text-decoration: none;
+  transition: .7s ease-in-out;
 }
 
 .btn:hover {
   background-color: #292e47;
+  color: #ffc600;
 }
 
 .work {
@@ -180,6 +182,13 @@ p {
 
 .hero {
     width: 100%;
+    transition: transform .7s ease-in-out;
+}
+
+.hero:hover {
+  transform: rotate(10deg);
+  position: relative;
+  z-index: 0;
 }
 
 .cards {
@@ -195,6 +204,7 @@ p {
 #card-1, #card-2 {
   position: relative; 
   width: 23vw; 
+  /* z-index: 10; */
 }
 
 #card-2 {
@@ -227,6 +237,7 @@ p {
 .testimonials-text h2 {
   text-align: center;
   color: white;
+  margin-bottom: 14%;
   font-size: 40px;
 }
 
@@ -250,6 +261,9 @@ background-repeat: no-repeat;
 
 .client {
   position: relative;
+  margin-left: 40%;
+  display: flex;
+  margin-top: 14%;
 }
 
 .client-info {
@@ -283,27 +297,43 @@ background-repeat: no-repeat;
 
 .top-left, .top-right, .bottom-left, .bottom-right {
   position: absolute;
-
+  transition: transform .7s ease-in-out;
 }
 
 .top-left, .top-right {
-  margin-top: -45%;
+  margin-top: -43%;
 }
 
 .top-left, .bottom-left {
-  margin-left: -40%;
+  margin-left: -42%;
 }
 
 .top-right {
   margin-left: 30%;
 }
 
+.top-right:hover {
+  transform: rotate(20deg);
+}
+
+.top-left:hover {
+  transform: rotate(-20deg);
+}
+
 .bottom-right {
   margin-left: 30%;
 }
 
+.bottom-right:hover {
+  transform: rotate(-20deg);
+}
+
 .bottom-left, .bottom-right {
-  margin-top: -14%;
+  margin-top: -16%;
+}
+
+.bottom-left:hover {
+  transform: rotate(20deg);
 }
 
 .company-logos {
@@ -351,6 +381,24 @@ background-repeat: no-repeat;
 
 .project-description {
   height: 120px;
+}
+
+#learn-more:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#072ac8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#learn-more:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 #learn-more, #learn-more-2 {
@@ -552,8 +600,13 @@ text-decoration: none;
 }
 
 .send-email h2 {
-    font-size: 2.6rem;
+    font-size: 40px;
     color: #292e47;
+    margin-bottom: 1%;
+}
+
+.send-email p {
+  margin-bottom: 2%;
 }
 
 

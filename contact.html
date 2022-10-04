@@ -6,6 +6,7 @@
     <title>Mid term project</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/simplify.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -29,19 +30,34 @@
     </header>
 
     <main>
-        <div class="row-main">
+        <div class="row-main-contact">
+            <h2>Contact Us</h2>
         </div>
 
-        <div class="parallax"></div>
-
-        <div class="section-lorem">
-            <div class="project-img" style="float: none; width: 79%; margin-left: 10%;">
-                <div class="project-name" id="project-simplify"></div>
-                <div class="project-description" id="desciption"></div>
-            </div>
+        <div id="container">
+            <form action="#" method="post" name="myForm" id="form1" class="pure-form" onsubmit="getFormValue(event)">
+              <div class="name">
+                <label for="name">Full Name *</label>
+                <input type="text" placeholder="Enter your full name" name="name" id="name_input" required>
+              </div>
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email" name="email" id="email_input1" required>
+              </div>
+              <div class="telephone">
+                <label for="name">Phone</label>
+                <input type="text" placeholder="Enter your phone" name="telephone" id="telephone_input" required>
+              </div>
+              <div class="message">
+                <label for="message">Message *</label>
+                <textarea name="message" placeholder="Enter your message here..." id="message_input" cols="30" rows="5" required></textarea>
+              </div>
+              <div class="submit">
+                <input type="submit" value="Submit" id="form_button" />
+              </div>
+            </form>
         </div>
-
-
+        
         <div class="section-footer">
             <div class="container-footer">
                 <div class="footer-content">
