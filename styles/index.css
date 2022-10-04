@@ -43,7 +43,7 @@ p {
   text-decoration: none;
   font-size: 17px;
   font-weight: 500;
-  color: #6b708d;
+  /* color: #6b708d; */
   opacity: 0.6;
 }
 .top-nav .menu li a:link,
@@ -126,6 +126,8 @@ p {
 .btn:hover {
   background-color: #292e47;
   color: #ffc600;
+  font-weight: bold;
+  /* scale: 1.2; */
 }
 
 .work {
@@ -204,7 +206,7 @@ p {
 #card-1, #card-2 {
   position: relative; 
   width: 23vw; 
-  /* z-index: 10; */
+  z-index: 10;
 }
 
 #card-2 {
@@ -362,8 +364,10 @@ background-repeat: no-repeat;
 }
 
 .recent-projects h2 {
-    font-size: 3rem;
+    font-size: 40px;
+    color: #292e47;
     margin-bottom: 5%;
+    margin-left: 1%;
 }
 
 .project-img {
@@ -586,11 +590,8 @@ text-decoration: none;
     display: block;
   }
 
-
-
-
 .send-email {
-    height: 80vh;
+    height: 72vh;
     width: 100%;
     background-color: #ffc600;
     display: flex;
@@ -608,8 +609,6 @@ text-decoration: none;
 .send-email p {
   margin-bottom: 2%;
 }
-
-
 
 .subscribe {
     display: inline-flex;
@@ -671,6 +670,10 @@ input#email_input {
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     color: #072ac8;
+}
+
+a.footer-link {
+  color: #072ac8;
 }
 
 .footer-link {

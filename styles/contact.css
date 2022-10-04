@@ -128,15 +128,9 @@ button {
       outline: none;
       padding: 0 0 0 20px;
   }
-  
 
   input#email_input1 {
-    /* background-color: red !important; */
-    /* padding: 25px; */
-    /* width: 30vw; */
-    /* border: solid 0px; */
-    /* /* margin-right: 5%; 
- */}
+ }
   
   .message {
       float: none;
@@ -211,7 +205,6 @@ button {
     cursor: pointer;
     border: 0px none;
     display: inline-block;
-    /* font-weight: bold; */
     outline: none;
     -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -221,6 +214,7 @@ button {
       height: 70px;
   }
 
-  #form_buttom:hover {
-    background-color: gray;
-  }
+  input#form_button:hover {
+    background-color: #474544;
+    color: #ffc600;
+}

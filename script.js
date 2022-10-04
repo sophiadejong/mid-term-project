@@ -47,6 +47,22 @@ function getFormValue(ev) {
   }
 
 
+  const toggle = document.getElementById('toggleDark');
+  const body = document.querySelector('body');
+  
+  toggle.addEventListener('click', function(){
+	  this.classList.toggle('bi-moon');
+	  if(this.classList.toggle('bi-brightness-high-fill')){
+		  body.style.background = 'pink';
+		  body.style.color = 'black';
+		  body.style.transition = '2s';
+	  }else{
+		  body.style.background = 'darkgrey';
+		  body.style.color = 'white';
+		  body.style.transition = '2s';
+		//   h1.style.color = 'white';
+	  }
+  });
 
 
 
