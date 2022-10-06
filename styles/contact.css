@@ -4,7 +4,6 @@ h2 {
     font-size: 60px;
     line-height: 110%;
     font-weight: bold;
-    color: 
 }
 
 .row-main-contact {
@@ -15,7 +14,6 @@ h2 {
     color: #292e47;
 
   }
-  
 
 button {
     overflow: visible;
@@ -34,7 +32,7 @@ button {
     font-size: 14px;
     line-height: 1.42857143;
     color: #6b708d;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     display: block;
     
   }
@@ -129,8 +127,8 @@ button {
       padding: 0 0 0 20px;
   }
 
-  input#email_input1 {
- }
+  /* input#email_input1 {
+ } */
   
   .message {
       float: none;

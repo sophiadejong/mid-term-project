@@ -49,20 +49,39 @@ function getFormValue(ev) {
 
   const toggle = document.getElementById('toggleDark');
   const body = document.querySelector('body');
-  
+  const heading = document.getElementById('simplify-heading')
+  const heading2 = document.getElementById('simplify-heading2')
+  const bgSimplify1 = document.getElementById('bg-simplify1')
+  const bgSimplify2 = document.getElementById('bg-simplify2')
+  const bgSimplify3 = document.getElementById('bg-simplify3')
+  const otherProjects = document.getElementById('other-projects')
+  let isBlack = false;
+
   toggle.addEventListener('click', function(){
-	  this.classList.toggle('bi-moon');
-	  if(this.classList.toggle('bi-brightness-high-fill')){
-		  body.style.background = 'pink';
-		  body.style.color = 'black';
+	console.log(this.classList.toggle('bi-brightness-high-fill'));
+	  if(isBlack) {
+		  body.style.background = '#f2f4fc';
+		  body.style.color = '';
 		  body.style.transition = '2s';
+		  heading.style.color = '#292e47';
+		  heading2.style.color = '#6b708d';
+		  bgSimplify1.style.background = 'white';
+		  bgSimplify2.style.background = 'white';
+		  bgSimplify3.style.background = 'white';
+		  otherProjects.style.color = '#292e47';
 	  }else{
-		  body.style.background = 'darkgrey';
+		  body.style.background = '#565656';
 		  body.style.color = 'white';
-		  body.style.transition = '2s';
-		//   h1.style.color = 'white';
+		  body.style.transition = '2s';	
+		  heading.style.color = 'white';  
+		  heading2.style.color = '#ffc600';
+		  bgSimplify1.style.background = '#292e47';
+		  bgSimplify2.style.background = '#292e47';
+		  bgSimplify3.style.background = '#292e47';
+		  otherProjects.style.color = 'white';
 	  }
+	  isBlack = !isBlack;
   });
 
 
-
+// make mediaquery to detect variable 

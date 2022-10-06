@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
 .simplify-img {
     width: 100%;
 }
@@ -17,15 +22,6 @@
   font-weight: 500;
 }
 
-#baconButton {
-    background-color: RED;
-    height: 80px;
-    width: 100px;
-    text-align: center;
-    margin-left: 15%;
-    margin-top: 10%;
-}
-
 .parallax {
     background-image: url('../assets/projects-section/1.jpg');
     min-height: 75vh;
@@ -38,6 +34,9 @@
     filter: saturate(200%) blur(2px);
     /* box-shadow: 0 0 5px 5px #f2f4fc inset; */
 }
+
+.bg-four {
+  background-image: url('../assets/projects-section/4.jpg');}
 
 .switch {
     position: relative;

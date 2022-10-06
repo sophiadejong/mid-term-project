@@ -29,47 +29,33 @@
         </div>
     </header>
 
+    <label class="switch">
+        <input type="checkbox" id="toggleDark">
+        <span class="slider round"></span>
+    </label>
 
-
-        <label class="switch" id="toggleDark">
-            <input type="checkbox">
-            <span class="slider round"></span>
-          </label>
-
-
- 
-
-        <main>
-            <div class="row-main">
-            </div>
-
-        <div class="simplify-titles">
-            <h2>Simplify</h2>
-            <h1>UI Design & App Development</h1>
+    <main>
+        <div class="row-main">
         </div>
 
-        <div class="parallax"></div>
+        <div class="simplify-titles">
+            <h2 id="simplify-heading">Simplify</h2>
+            <h1 id="simplify-heading2">UI Design & App Development</h1>
+        </div>
 
-        <div class="section-lorem" >
+        <div class="parallax js-scroll fade-in-bottom"></div>
+
+        <div class="section-lorem">
             <div class="project-img" style="float: none; width: 90%; margin-left: 5%; background-color: transparent;">
                 <div class="project-name" id="project-simplify" style="display: none;"></div>
                 <div class="project-description" id="desciption"></div>
             </div>
         </div>
+        
+        <div class="recent-projects" id="other-projects"> 
+            <h2>Other Projects</h2>
 
-        <div class="recent-projects">
-            <h2>Recent Projects</h2>
-
-            <div class="project-img">
-                <div class="parent">
-                    <div class="child bg-one"></div>
-                </div>
-                <div class="project-name">Dashcoin</div>
-                <div class="project-description">Web Development</div>
-                <button id="learn-more"><a href="simplify.html" target="_blank">Learn More</a></button>
-            </div>
-
-            <div class="project-img">
+            <div class="project-img js-scroll slide-left" id="bg-simplify1">
                 <div class="parent">
                     <div class="child bg-two"></div>
                 </div>
@@ -78,7 +64,7 @@
                 <button id="learn-more"><a href="simplify.html" target="_blank">Learn More</a></button>
             </div>
 
-            <div class="project-img">
+            <div class="project-img js-scroll fade-in-bottom" id="bg-simplify2">
                 <div class="parent">
                     <div class="child bg-three"></div>
                 </div>
@@ -86,7 +72,17 @@
                 <div class="project-description">User Experience Design</div>
                 <button id="learn-more"><a href="simplify.html" target="_blank">Learn More</a></button>
             </div>
+
+            <div class="project-img js-scroll slide-right" id="bg-simplify3">
+                <div class="parent">
+                    <div class="child bg-four"></div>
+                </div>
+                <div class="project-name">Orbit</div>
+                <div class="project-description">UI Design</div>
+                <button id="learn-more"><a href="simplify.html" target="_blank">Learn More</a></button>
+            </div>
         </div>
+
 
         <div class="send-email">
             <h2>Do you have any questions?</h2>
@@ -97,7 +93,7 @@
             </div>
         </div>
 
-        <div class="section-footer">
+        <div class="section-footer js-scroll fade-in-bottom">
             <div class="container-footer">
                 <div class="footer-content">
                     <a href="index.html"><img src="assets/logos/circle.svg" alt="" class="logo2"></a>
@@ -119,6 +115,7 @@
 
 
     <script src="./script.js"></script>
+    <script src="./show-on-scroll.js"></script>
 
 </body>
 
