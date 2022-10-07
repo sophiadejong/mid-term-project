@@ -81,7 +81,7 @@ toggle.addEventListener('click', function () {
 		bgSimplify2.style.background = '#292e47';
 		bgSimplify3.style.background = '#292e47';
 		otherProjects.style.color = 'white';
-		topNav.style.background = '#565656';
+		topNav.style.background = 'transparent';
 	}
 	isBlack = !isBlack;
 });
