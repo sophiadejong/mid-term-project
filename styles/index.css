@@ -666,7 +666,7 @@ form#form1 {
 
 .subscribe {
   display: inline-flex;
-  padding: 2%;
+  /* padding: 2%; */
   /* border-radius: 10px; */
 }
 
@@ -775,13 +775,13 @@ a.footer-link {
 
 }
 
-@media  (min-width: 880px) {
+@media screen and (min-width: 880px) {
   .cards {
     display: none;
   }
 }
 
-@media  (max-width: 870px) {
+@media screen and (max-width: 870px) {
 
   body {
     font-size: 25px;
@@ -829,9 +829,13 @@ a.footer-link {
     display: none;
   }
 
+  .work {
+    display: none;
+  }
+
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .logo img {
     width: 10vw;
   }
