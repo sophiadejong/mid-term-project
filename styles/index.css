@@ -219,6 +219,7 @@ p {
 .cards {
   position: absolute;
   width: 46%;
+  display: block;
 }
 
 #card-1 {
@@ -774,12 +775,14 @@ a.footer-link {
     /* height: 16vh; */
   }
 
+  /* .cards {
+    display: none;
+  } */
+
 }
 
 @media screen and (min-width: 880px) {
-  .cards {
-    display: none;
-  }
+
 }
 
 @media screen and (max-width: 870px) {
@@ -799,6 +802,10 @@ a.footer-link {
 
   .menu {
     background-color: rgb(200, 200, 200);
+  }
+
+  .cards {
+    display: none;
   }
 
   .project-img {
@@ -831,9 +838,9 @@ a.footer-link {
     margin-top: 5%;
   }
 
-  .cards {
+  /* .cards {
     display: none;
-  }
+  } */
 
   .work {
     display: none;
