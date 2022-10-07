@@ -775,7 +775,13 @@ a.footer-link {
 
 }
 
-@media  (max-width: 850px) {
+@media  (min-width: 880px) {
+  .cards {
+    display: none;
+  }
+}
+
+@media  (max-width: 870px) {
 
   body {
     font-size: 25px;
