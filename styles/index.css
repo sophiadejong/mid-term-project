@@ -818,6 +818,11 @@ a.footer-link {
 
   .row-main h1 {
   text-align: center;
+  font-size: 30px;
+  }
+
+  .row-main p {
+   font-size: 15px;
   }
 
   .column-main {
@@ -861,11 +866,11 @@ a.footer-link {
   }
 
   figcaption h4, .project-name {
-    font-size: 40px;
+    font-size: 16px;
   }
 
   figcaption p, .project-description, #learn-more a, #learn-more-2 a {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   /* #contact-us {
@@ -889,11 +894,28 @@ a.footer-link {
   .recent-projects h2,
   .our-services h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .testimonials {
     height: 60vh;
+  }
+
+  .testimonials-text h2, .send-email h2 {
+    font-size: 16px;
+  }
+
+  .test-text {
+    font-size: 12px;
+  }
+
+  .client {
+    margin-left: 22.5%;
+
+  }
+
+  .client-info, .client-name {
+    font-size: 12px;
   }
 
 
