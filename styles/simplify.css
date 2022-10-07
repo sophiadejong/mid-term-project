@@ -39,7 +39,8 @@
   background-size: cover;
   margin-left: 7%;
   margin-right: 7%;
-  filter: saturate(200%) blur(2px);
+  /* filter: saturate(200%) blur(2px); */
+  box-shadow: 0 0 8px #ffc600;
   /* box-shadow: 0 0 5px 5px #f2f4fc inset; */
 }
 
