@@ -70,7 +70,7 @@ toggle.addEventListener('click', function () {
 		bgSimplify2.style.background = 'white';
 		bgSimplify3.style.background = 'white';
 		otherProjects.style.color = '#292e47';
-		topNav.style.background = '#f2f4fc';
+		topNav.style.background = 'transparent';
 	} else {
 		body.style.background = '#565656';
 		body.style.color = 'white';
