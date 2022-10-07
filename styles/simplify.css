@@ -1,6 +1,8 @@
 :root {
-  --primary-color: #000;
-  --secondary-color: #fff;
+  --blue: #072ac8;
+  --white: #ffffff;
+  --yellow: #ffc600;
+  --darkgrey: #292e47;
 }
 
 .simplify-img {
@@ -14,12 +16,18 @@
 .simplify-titles h2 {
   font-size: 60px;
   color: #292e47;
+  margin-bottom: 2%;
 }
+
+
 
 .simplify-titles h1 {
   color: #6b708d;
   font-size: 24px;
   font-weight: 500;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
 }
 
 .parallax {

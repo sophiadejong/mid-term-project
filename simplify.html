@@ -6,6 +6,7 @@
     <title>Mid term project</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/simplify.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/showscroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,8 +89,16 @@
             <h2>Do you have any questions?</h2>
             <p>Let us help you!</p>
             <div class="subscribe">
-                <input type="email" class="icon-rtl" name="email" id="email_input" placeholder="Enter your Email">
-                <button id="newsletter">Subscribe</button>
+                <form action="#" method="post" name="myForm" id="form1" class="pure-form" onsubmit="getFormValue(event)">
+                    <div class="email2" >
+                      <input type="email" class="icon-rtl" placeholder="Enter your email" name="email" id="email_input1" style="background-color: white; border: 1px solid #cccccc; padding-left: 3vw; height: 80px;" >
+                    </div>
+                    <div class="submit2">
+                      <input type="submit" value="Submit" id="form_button" style="padding: 20px 50px; height: 80px"/>
+                    </div>
+                  </form>
+                <!-- <input type="email" class="icon-rtl" name="email" id="email_input" placeholder="Enter your Email">
+                <button id="newsletter">Subscribe</button> -->
             </div>
         </div>
 

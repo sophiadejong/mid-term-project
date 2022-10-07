@@ -55,6 +55,7 @@ const bgSimplify1 = document.getElementById('bg-simplify1')
 const bgSimplify2 = document.getElementById('bg-simplify2')
 const bgSimplify3 = document.getElementById('bg-simplify3')
 const otherProjects = document.getElementById('other-projects')
+const topNav = document.getElementById('top-nav')
 let isBlack = false;
 
 toggle.addEventListener('click', function () {
@@ -69,6 +70,7 @@ toggle.addEventListener('click', function () {
 		bgSimplify2.style.background = 'white';
 		bgSimplify3.style.background = 'white';
 		otherProjects.style.color = '#292e47';
+		topNav.style.background = '#f2f4fc';
 	} else {
 		body.style.background = '#565656';
 		body.style.color = 'white';
@@ -79,9 +81,8 @@ toggle.addEventListener('click', function () {
 		bgSimplify2.style.background = '#292e47';
 		bgSimplify3.style.background = '#292e47';
 		otherProjects.style.color = 'white';
+		topNav.style.background = '#565656';
 	}
 	isBlack = !isBlack;
 });
 
-
-// make mediaquery to detect variable 
