@@ -40,6 +40,10 @@ button {
   input {
     line-height: normal;
   }
+
+  input::placeholder, textarea::placeholder  {
+    color: #6b708d;
+  }
   
   textarea {
     overflow: auto;
@@ -127,9 +131,6 @@ button {
       padding: 0 0 0 20px;
   }
 
-  /* input#email_input1 {
- } */
-  
   .message {
       float: none;
   }
@@ -174,7 +175,7 @@ button {
     border: none;
     outline: none;
   }
-  
+/*   
   ::-webkit-input-placeholder {
       color: #474544;
   }
@@ -191,7 +192,7 @@ button {
   
   :-ms-input-placeholder {
       color: #474544;
-  }
+  } */
   
   #form_button {
     width: 100%;
@@ -215,4 +216,22 @@ button {
   input#form_button:hover {
     background-color: #474544;
     color: #ffc600;
+}
+
+@media only screen and (max-device-width: 800px) {
+input[type='text'], input[type='email'], select {
+  height: 10vh;
+}
+
+.telephone, .email {
+  width: 100%;
+}
+
+textarea {
+  height: 20vh;
+}
+
+#form_button {
+  height: 10vh;
+}
 }

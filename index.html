@@ -6,6 +6,7 @@
     <title>Mid term project</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/showscroll.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
                 <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul class="menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="simplify.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <a class="btn" id="contact-us" href="contact.html">Contact Us</a>
@@ -148,9 +149,24 @@
             <h2>Do you have any questions?</h2>
             <p>Let us help you!</p>
             <div class="subscribe">
-                <input type="email" class="icon-rtl" name="email" id="email_input" placeholder="Enter your Email">
-                <button id="newsletter">Subscribe</button>
-            </div>
+                <!-- <form action="#" method="post" name="myForm" id="form1" class="pure-form" onsubmit="getFormValue(event)"> -->
+                    <!-- <div class="email-index"> -->
+                    <!-- <input type="email" class="icon-rtl" name="email" id="email_input" placeholder="Enter your Email"> -->
+                    <!-- </div> -->
+                    <!-- <div class="submit">
+                        <input type="submit" value="Submit" id="form_button" />
+                    </div> -->       
+                    <!-- <button id="newsletter">Subscribe</button> -->
+                    <form action="#" method="post" name="myForm" id="form1" class="pure-form" onsubmit="getFormValue(event)">
+                        <div class="email2" >
+                          <input type="email" class="icon-rtl" placeholder="Enter your email" name="email" id="email_input1" style="background-color: white; border: 1px solid #cccccc; padding-left: 3vw; height: 80px;" >
+                        </div>
+                        <div class="submit2">
+                          <input type="submit" value="Submit" id="form_button" style="padding: 20px 50px; height: 80px"/>
+                        </div>
+                      </form>
+                </form>
+            </div>          
         </div>
 
         <div class="section-footer js-scroll fade-in-bottom">
