@@ -25,7 +25,7 @@ function getFormValue(ev) {
 	ev.preventDefault();
 
 	// PICK THE FORM REFERENCE
-	const form = document.getElementById('form1');
+	const form = document.getElementById('form2');
 
 	// GET ALL ELMENTS LIKE INPUT AND SELECT, YOU CAN ADD MANY MORE
 	const allInputs = form.querySelectorAll('input,select');
