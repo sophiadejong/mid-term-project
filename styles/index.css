@@ -634,6 +634,7 @@ form#form1 {
   align-items: baseline;
 }
 
+
 .email2 {
   width: 70%; 
   margin-right: 3%;
@@ -853,8 +854,12 @@ a.footer-link {
 
   figure {
     width: 95%;
-    padding: 3%;
+    padding: 5%;
     margin-top: 5%;
+  }
+
+  #learn-more-2 {
+    padding: 0;
   }
 
   .project-img {
@@ -902,7 +907,7 @@ a.footer-link {
   }
 
   .testimonials-text h2, .send-email h2 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .test-text {
@@ -920,16 +925,21 @@ a.footer-link {
 
 
   figure img {
-    border-radius: 150px;
-    padding: 5%;
+    border-radius: 150px; 
+    padding: 3%;
+    margin-left: 1%;
   }
 
   form#form1 {
     padding: 0;
-    margin: 50px 0;
+    margin: 0 0;
     width: 50vw;
     display: grid;
     align-items: baseline;
+  }
+
+  .icon-rtl {
+    background-size: 5vw;
   }
 
   .email2, .submit2 {
